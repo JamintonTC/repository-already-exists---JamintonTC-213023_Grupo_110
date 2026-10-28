@@ -72,7 +72,6 @@ class AlquilerEquipo(Servicio):
     def obtener_descripcion(self) -> str:
         return f"Servicio: {self._nombre} [Equipo]. Tipo: {self.tipo_equipo}."
 
-
 class AsesoriaEspecializada(Servicio):
     """Clase derivada para el servicio de Asesorías Especializadas"""
     def __init__(self, id_servicio: str, nombre: str, costo_base: float, area: str):
